@@ -1,0 +1,70 @@
+body {
+    background-image: url('Express.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: #050000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#expressvpn-logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+#expressvpn-title {
+    color: rgb(220, 53, 53);
+    margin-right: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+.get-started-button {
+    background-color: #0b7d62;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    padding: -10px;
+    margin: -70px;
+}
+
+.tagline {
+    margin-top: -50px; 
+    font-size: 40px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.tagline-button {
+    background-color: #0b7d62;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
