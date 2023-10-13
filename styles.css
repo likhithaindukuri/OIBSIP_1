@@ -1,7 +1,6 @@
 body {
     background-image: url('Express.png'); 
     background-size: cover;
-    background-repeat: no-repeat;
     margin-right: 70px;
 }
 
@@ -69,3 +68,4 @@ header {
     border-radius: 15px;
     text-decoration: none;
 }
+
