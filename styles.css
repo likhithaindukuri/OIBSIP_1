@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     overflow: auto;
 }
 
@@ -82,7 +82,7 @@ h2{
     text-decoration: none;
 }
 
-/* Existing styles */
+
 
 .info-container {
     display: flex;
@@ -97,8 +97,8 @@ h2{
     flex: 1;
     text-align: left;
     padding: 20px;
-    padding-left: 100px;
-    padding-top: -10px;
+    padding-left: 90px;
+    padding-top: -50px;
     line-height: 9mm;
 }
 
@@ -125,4 +125,40 @@ h2{
 
 .info-image {
     flex:auto;
+}
+
+/* ... Your existing CSS ... */
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.about-content p {
+    font-size: 18px;
 }
