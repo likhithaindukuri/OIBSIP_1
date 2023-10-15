@@ -10,7 +10,9 @@ body {
     margin-right: 0; 
     margin-bottom: 0; 
     height: 100vh; 
+    overflow: hidden;
 }
+
 
 
 header {
@@ -41,6 +43,10 @@ header {
     display: inline;
     margin-right: 20px;
 }
+
+ul li:hover{
+    color: #179376;
+  }
 
 h2{
     font-size: 50px;
@@ -83,6 +89,14 @@ h2{
 }
 
 
+.tagline-button:hover {
+    background-color: #ff6600; 
+}
+
+.get-started-button:hover{
+    background-color:#ff6600;
+}
+
 
 .info-container {
     display: flex;
@@ -98,7 +112,7 @@ h2{
     text-align: left;
     padding: 20px;
     padding-left: 90px;
-    padding-top: -50px;
+    padding-top: -750px;
     line-height: 9mm;
 }
 
@@ -127,7 +141,6 @@ h2{
     flex:auto;
 }
 
-/* ... Your existing CSS ... */
 
 .about-section {
     display: flex;
@@ -149,16 +162,70 @@ h2{
 }
 
 .about-content {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 9mm;
     flex: 1;
     text-align: left;
     padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .about-content h2 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1.2;
 }
 
 .about-content p {
     font-size: 18px;
+}
+
+
+.strong-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.strong-image {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strong-image img {
+    max-width: 800%; 
+    height: 200%;
+    width: 70%;
+}
+
+.map-section {
+    background-image: url(map.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 500px;
+    padding-bottom: 300px;
+    padding-left: 200px;
+}
+
+.map-image {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-image img {
+    max-width: 80%; 
+    height: auto;
+    width: 200%;
 }
