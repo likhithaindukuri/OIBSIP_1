@@ -1,3 +1,5 @@
+
+/* Body Section */
 body {
     margin: 0px;
     overflow: auto;
@@ -13,7 +15,7 @@ body {
     overflow: hidden;
 }
 
-
+/* Header Section */
 
 header {
     color: #050000;
@@ -32,6 +34,8 @@ header {
     color: rgb(220, 53, 53);
     margin-right: 60px;
 }
+
+/* Navigation section */
 
 .nav ul {
     list-style: none;
@@ -213,6 +217,33 @@ h2{
     height: 200%;
     width: 70%;
 } */
+
+
+.new-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column img {
+    max-width: 70%;
+    height: auto;
+}
+
+.column p {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+
+/* Footer section */
 
 .map-section {
     background-image: url(map.png);
