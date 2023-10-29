@@ -45,7 +45,7 @@ header {
 }
 
 ul li:hover{
-    color: #179376;
+    color: #179376  ;
   }
 
 h2{
@@ -104,6 +104,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: -150px;
 }
 
 .info-content {
@@ -148,6 +149,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: -150px;
 }
 
 .about-image {
@@ -159,6 +161,15 @@ h2{
 .about-image img {
     max-width: 50%;
     height: auto;
+}
+
+.internet-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .about-content {
@@ -181,14 +192,14 @@ h2{
 }
 
 
-.strong-section {
+/* .strong-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
+} */
+/* 
 .strong-image {
     flex: 1;
     text-align: center;
@@ -201,7 +212,7 @@ h2{
     max-width: 800%; 
     height: 200%;
     width: 70%;
-}
+} */
 
 .map-section {
     background-image: url(map.png);
@@ -228,4 +239,28 @@ h2{
     max-width: 80%; 
     height: auto;
     width: 200%;
+}
+
+
+.new-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.column img {
+    max-width: 70%;
+    height: auto;
+}
+
+.column p {
+    font-size: 16px;
+    margin-top: 0px;
 }
